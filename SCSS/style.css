@@ -1,0 +1,320 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #333;
+  font-size: 1.2rem;
+  font-family: 'Merriweather','Noto Sans JP',"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #d03c56;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 26px 80px;
+  font-size: 2.2rem;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.gst-btn {
+  background: transparent;
+}
+
+.select-color {
+  color: #e67e22;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.wrapper .side-menu {
+  position: relative;
+  width: 16%;
+  height: 100vh;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.wrapper .side-menu .fixed {
+  position: fixed;
+  -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+          box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.4);
+  width: 16%;
+  height: 100vh;
+}
+
+.wrapper .side-menu .logo {
+  margin: 100px auto;
+}
+
+.wrapper .side-menu .logo .logo-image {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.wrapper .side-menu .logo .logo-title {
+  display: block;
+  margin: 20px 0 20px;
+  font-size: 3rem;
+  color: #333;
+}
+
+.wrapper .side-menu .second-title {
+  font-size: 1.5rem;
+}
+
+.wrapper .side-menu .global-menu {
+  margin: 100px auto;
+}
+
+.wrapper .side-menu .global-menu .menu-item + .menu-item {
+  margin-top: 50px;
+}
+
+.wrapper .side-menu .global-menu .menu-item > a {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.wrapper .side-menu .details {
+  line-height: 2;
+  position: absolute;
+  bottom: 30px;
+  width: 90%;
+  margin: 0 5%;
+}
+
+.wrapper .side-menu .details > h2 {
+  font-size: 1.6rem;
+}
+
+.wrapper .side-menu .details > p {
+  font-size: 1.2rem;
+}
+
+.wrapper .main-menu {
+  width: 84%;
+}
+
+.wrapper .main-menu .top-image {
+  position: relative;
+}
+
+.wrapper .main-menu .about {
+  position: absolute;
+  line-height: 2.6;
+  width: 70%;
+  margin: 0 15%;
+  bottom: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 20;
+}
+
+.wrapper .main-menu .about > h2 {
+  line-height: 1.5;
+  margin-bottom: 40px;
+  font-size: 5rem;
+  text-shadow: 2px  2px 3px #333333, -2px  2px 3px #333333, 2px -2px 3px #333333, -2px -2px 3px #333333;
+}
+
+.wrapper .main-menu .about > p {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.wrapper .main-menu .about .btn {
+  display: block;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  margin: 100px auto;
+}
+
+.wrapper .main-menu .about .btn > a {
+  text-shadow: 2px  2px 3px #333333, -2px  2px 3px #333333, 2px -2px 3px #333333, -2px -2px 3px #333333;
+  color: #fff;
+}
+
+.wrapper .main-menu .slider img {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper .main-menu .top-image::after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.wrapper .main-menu .access {
+  margin-top: 60px;
+}
+
+.wrapper .main-menu .access-title {
+  margin: 0 15% 10px;
+  font-size: 4rem;
+}
+
+.wrapper .main-menu .access-items {
+  letter-spacing: 1px;
+  line-height: 2;
+  margin: 20px 15% 40px;
+  font-size: 1.8rem;
+}
+
+.wrapper .main-menu .large-text {
+  font-size: 3.0rem;
+}
+
+.wrapper .main-menu .map {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.wrapper .main-menu .map > iframe {
+  -webkit-filter: grayscale(0.4);
+          filter: grayscale(0.4);
+}
+
+.wrapper .main-menu .map > iframe:hover {
+  -webkit-transition: -webkit-filter 0.8s ease;
+  transition: -webkit-filter 0.8s ease;
+  transition: filter 0.8s ease;
+  transition: filter 0.8s ease, -webkit-filter 0.8s ease;
+  -webkit-filter: grayscale(0) saturate(2);
+          filter: grayscale(0) saturate(2);
+}
+
+.wrapper .footer {
+  height: 70px;
+  line-height: 70px;
+  background-color: #333333;
+}
+
+.wrapper .footer .copywriter {
+  text-align: center;
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
