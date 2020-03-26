@@ -54,7 +54,7 @@ a:link, a:visited, a:hover, a:active {
       height: 100vh;
     }
     .logo {
-      margin: 100px auto;
+      margin: 70px auto 0;
       .logo-image {
       display: inline-block;
       width: 50px;
@@ -67,11 +67,11 @@ a:link, a:visited, a:hover, a:active {
       color: #333;
       }
     }
-    .second-title {
+    .sub-title {
       font-size: 1.5rem;
     }
     .global-menu {
-      margin: 100px auto;
+      margin: 50px auto 0;
       .menu-item + .menu-item {
         margin-top: 50px;
       }
@@ -81,11 +81,8 @@ a:link, a:visited, a:hover, a:active {
       }
     }
     .details {
+      margin: 30px auto 0;
       line-height: 2;
-      position: absolute;
-      bottom: 30px;
-      width: 90%;
-      margin: 0 5%;
     }
     .details > h2 {
       font-size: 1.6rem;

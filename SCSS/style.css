@@ -159,7 +159,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .wrapper .side-menu .logo {
-  margin: 100px auto;
+  margin: 70px auto 0;
 }
 
 .wrapper .side-menu .logo .logo-image {
@@ -175,12 +175,12 @@ a:link, a:visited, a:hover, a:active {
   color: #333;
 }
 
-.wrapper .side-menu .second-title {
+.wrapper .side-menu .sub-title {
   font-size: 1.5rem;
 }
 
 .wrapper .side-menu .global-menu {
-  margin: 100px auto;
+  margin: 50px auto 0;
 }
 
 .wrapper .side-menu .global-menu .menu-item + .menu-item {
@@ -193,11 +193,8 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .wrapper .side-menu .details {
+  margin: 30px auto 0;
   line-height: 2;
-  position: absolute;
-  bottom: 30px;
-  width: 90%;
-  margin: 0 5%;
 }
 
 .wrapper .side-menu .details > h2 {
