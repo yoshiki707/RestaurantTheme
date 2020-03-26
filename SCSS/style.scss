@@ -152,12 +152,32 @@ $title-color: #753A00;
       right: 0;
     }
     .news {
-      margin-top: 60px;
+      margin: 60px 15% 0;
     }
     .news-title {
       color: $title-color;
-      margin: 0 15% 10px;
+      margin: 0 0 10px;
       font-size: 4.2rem;
+    }
+    .news-article {
+      article {
+        margin-top: 10px;
+        border-bottom: 1px solid #333333;
+      }
+      time {
+        font-size: 1.8rem;
+        color: #333333;
+      }
+      h3 {
+        display: inline-block;
+        font-size: 1.8rem;
+        padding: 10px 20px 15px;
+        color: #333333;
+      }
+      p {
+        display: inline-block;
+        color: #333333;
+      }
     }
     .menu {
       margin-top: 60px;

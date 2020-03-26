@@ -270,13 +270,35 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .wrapper .main-menu .news {
-  margin-top: 60px;
+  margin: 60px 15% 0;
 }
 
 .wrapper .main-menu .news-title {
   color: #753A00;
-  margin: 0 15% 10px;
+  margin: 0 0 10px;
   font-size: 4.2rem;
+}
+
+.wrapper .main-menu .news-article article {
+  margin-top: 10px;
+  border-bottom: 1px solid #333333;
+}
+
+.wrapper .main-menu .news-article time {
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+.wrapper .main-menu .news-article h3 {
+  display: inline-block;
+  font-size: 1.8rem;
+  padding: 10px 20px 15px;
+  color: #333333;
+}
+
+.wrapper .main-menu .news-article p {
+  display: inline-block;
+  color: #333333;
 }
 
 .wrapper .main-menu .menu {
