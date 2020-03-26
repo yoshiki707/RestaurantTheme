@@ -192,6 +192,10 @@ a:link, a:visited, a:hover, a:active {
   color: #333;
 }
 
+.wrapper .side-menu .global-menu .menu-item > a:hover {
+  opacity: 0.8;
+}
+
 .wrapper .side-menu .details {
   margin: 30px auto 0;
   line-height: 2;
@@ -265,13 +269,34 @@ a:link, a:visited, a:hover, a:active {
   right: 0;
 }
 
+.wrapper .main-menu .news {
+  margin-top: 60px;
+}
+
+.wrapper .main-menu .news-title {
+  color: #753A00;
+  margin: 0 15% 10px;
+  font-size: 4.2rem;
+}
+
+.wrapper .main-menu .menu {
+  margin-top: 60px;
+}
+
+.wrapper .main-menu .menu-title {
+  color: #753A00;
+  margin: 0 15% 10px;
+  font-size: 4.2rem;
+}
+
 .wrapper .main-menu .access {
   margin-top: 60px;
 }
 
 .wrapper .main-menu .access-title {
+  color: #753A00;
   margin: 0 15% 10px;
-  font-size: 4rem;
+  font-size: 4.2rem;
 }
 
 .wrapper .main-menu .access-items {

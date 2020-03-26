@@ -37,6 +37,7 @@ a:link, a:visited, a:hover, a:active {
 .select-color {
   color: #e67e22;
 }
+$title-color: #753A00;
 // -----------------------------------------------
 .wrapper {
   display: flex;
@@ -78,6 +79,9 @@ a:link, a:visited, a:hover, a:active {
       .menu-item > a {
         font-size: 1.6rem;
         color: #333;
+        &:hover {
+          opacity: 0.8;
+        }
       }
     }
     .details {
@@ -147,12 +151,29 @@ a:link, a:visited, a:hover, a:active {
       left: 0;
       right: 0;
     }
+    .news {
+      margin-top: 60px;
+    }
+    .news-title {
+      color: $title-color;
+      margin: 0 15% 10px;
+      font-size: 4.2rem;
+    }
+    .menu {
+      margin-top: 60px;
+    }
+    .menu-title {
+      color: $title-color;
+      margin: 0 15% 10px;
+      font-size: 4.2rem;
+    }
     .access {
       margin-top: 60px;
     }
     .access-title {
+      color: $title-color;
       margin: 0 15% 10px;
-      font-size: 4rem;
+      font-size: 4.2rem;
     }
     .access-items {
       letter-spacing: 1px;
