@@ -281,7 +281,7 @@ a:link, a:visited, a:hover, a:active {
 
 .wrapper .main-menu .news-article article {
   margin: 10px 0 0 20px;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid #95a5a6;
 }
 
 .wrapper .main-menu .news-article time {
@@ -298,6 +298,7 @@ a:link, a:visited, a:hover, a:active {
 
 .wrapper .main-menu .news-article p {
   display: inline-block;
+  font-size: 1.4rem;
   color: #333333;
 }
 
