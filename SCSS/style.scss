@@ -179,6 +179,13 @@ $title-color: #6D214F;
         font-size: 1.4rem;
         color: #333333;
       }
+      .news-top {
+        margin-top: 20px;
+        text-align: right;
+        > a {
+          color: #333333;
+        }
+      }
     }
     .menu {
       margin-top: 60px;

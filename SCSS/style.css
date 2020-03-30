@@ -302,6 +302,15 @@ a:link, a:visited, a:hover, a:active {
   color: #333333;
 }
 
+.wrapper .main-menu .news-article .news-top {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.wrapper .main-menu .news-article .news-top > a {
+  color: #333333;
+}
+
 .wrapper .main-menu .menu {
   margin-top: 60px;
 }
